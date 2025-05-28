@@ -1,0 +1,7 @@
+aws_region     = "us-east-1"
+vpc_cidr       = "10.19.0.0/16"  
+private_subnet = "10.19.1.0/24"  
+public_subnet  = "10.19.2.0/24"  
+user_source_ip = "0.0.0.0/0"  
+ssh_pubkey     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG+36qjp2/AxQoyannO/fez5LxH3EF9/xe0ltX03GqMJ pc@DESKTOP-060PSOH"
+instance_type  = "t2.micro"
